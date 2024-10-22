@@ -1,6 +1,6 @@
 # Nerfies
 
-This is the repository that contains source code for the [KINETC website](zmanaa.github.io/kinetc/).
+This is the repository that contains source code for the [KINETC website](https://zmanaa.github.io/kinetc/).
 
 If you find kinetc useful for your work please cite:
 ```
