@@ -9,7 +9,7 @@
   <title>KINETC: Koopman-Inspired Nonlinear Event-Triggered Control from Data</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <!--   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -20,7 +20,7 @@
     gtag('js', new Date());
 
     gtag('config', 'G-PYVRSFMDRL');
-  </script>
+  </script> -->
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -190,16 +190,14 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
+      <img id="teaser" src="./static/images/all_results.png" alt="KINETC Image" height="100%">
       <h2 class="subtitle has-text-centered">
         <span class="dnerf">KINETC</span> enables advanced control from data-driven models.
       </h2>
     </div>
   </div>
 </section>
+
 
 
 <section class="section">
@@ -235,32 +233,30 @@
     <!--/ Abstract. -->
 
 
-    <!-- Related Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
+<div class="content has-text-justified">
+  <p>
+    There is a substantial body of work related to event-triggered control and data-driven methods, upon which our approach builds.
+  </p>
+  <p>
+    <a href="https://doi.org/10.3182/19990830-2-FR-1902.01515">A Simple Event-Based PID Controller</a> by K.-E. Årzén introduced one of the earliest event-triggered control strategies.
+  </p>
+  <p>
+    The formalization of event-triggered control in real-time systems is presented in <a href="https://doi.org/10.1109/TAC.2007.904277">Event-Triggered Real-Time Scheduling of Stabilizing Control Tasks</a> by P. Tabuada.
+  </p>
+  <p>
+    Data-driven control techniques have been explored in works like <a href="https://doi.org/10.1109/LCSYS.2018.2889495">Data-Driven LQR Control Design</a> by G. R. G. da Silva et al., and <a href="https://doi.org/10.1109/TAC.2018.2833153">Formulas for Data-Driven Control: Stabilization, Optimality, and Robustness</a> by C. De Persis and P. Tesi, which have influenced our method.
+  </p>
+  <p>
+    For data-driven event-triggered control, recent works such as <a href="https://doi.org/10.23919/ECC55457.2022.9838173">Data-Driven Event-Triggered Control for Discrete-Time LTI Systems</a> by V. Digge and R. Pasumarthy offer insights into event-based control without explicit models.
+  </p>
+  <p>
+    The use of the Koopman operator in control is explored in <a href="https://doi.org/10.1016/j.automatica.2018.03.046">Linear Predictors for Nonlinear Dynamical Systems: Koopman Operator Meets Model Predictive Control</a> by M. Korda and I. Mezić, which inspired our Koopman-based approach.
+  </p>
+  <p>
+    For a comprehensive overview of the Koopman operator theory and its applications, consider <a href="https://doi.org/10.1063/1.5026338">Applied Koopmanism</a> by M. Budišić, R. Mohr, and I. Mezić.
+  </p>
+</div>
 
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Related Work. -->
 
   </div>
 </section>
@@ -283,7 +279,7 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/kinetc_paper.pdf">
+         href="./static/files/kinetc_paper.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
       <a class="icon-link" href="https://github.com/zmanaa" class="external-link" disabled>
@@ -294,16 +290,9 @@
       <div class="column is-8">
         <div class="content">
           <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            This website is adopted from the
+            <a href="https://nerfies.github.io/">Nerfies website</a> and            
+            <a href="https://github.com/nerfies/nerfies.github.io">source code</a>
           </p>
         </div>
       </div>
