@@ -1,10 +1,10 @@
 # KINETC
 
-This is the repository that contains source code for the [KINETC website](https://zmanaa.github.io/kinetc/).
+This is the repository that contains source code for the [KINETC website](https://zmanaa.github.io/koetc/).
 
 If you find kinetc useful for your work please cite:
 ```
-@article{manaa2024kinetc,
+@article{manaa2024koetc,
   author    = {Manaa, Zeyad M and Abdallah, Ayman M and Elferik, Sami},
   title     = {KINETC: Koopman-Inspired Nonlinear Event-Triggered Control from Data},
   journal   = {holder},
