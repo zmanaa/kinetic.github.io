@@ -1,6 +1,6 @@
 # KINETC
 
-This is the repository that contains source code for the [KINETC website](https://zmanaa.github.io/koetc/).
+This is the repository that contains source code for the [KOETC website](https://zmanaa.github.io/koetc/).
 
 If you find kinetc useful for your work please cite:
 ```
