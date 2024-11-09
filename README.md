@@ -5,9 +5,9 @@ This is the repository that contains source code for the [KOETC website](https:/
 If you find kinetc useful for your work please cite:
 ```
 @article{manaa2024koetc,
-  author    = {Manaa, Zeyad M and Abdallah, Ayman M and Elferik, Sami},
-  title     = {KINETC: Koopman-Inspired Nonlinear Event-Triggered Control from Data},
-  journal   = {holder},
+  author    = {Manaa, Zeyad M. and Abdallah, Ayman M. and Ismail, Mohamed and El-Ferik, Sami},
+  title     = {KOETC: Koopman Operator-Based  Event-Triggered Control from Data},
+  journal   = {Submitted to Results in Engineering},
   year      = {2024},
 }
 ```
