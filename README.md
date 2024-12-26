@@ -7,7 +7,7 @@ If you find kinetc useful for your work please cite:
 @article{manaa2024koetc,
   author    = {Manaa, Zeyad M. and Abdallah, Ayman M. and Ismail, Mohamed and El-Ferik, Sami},
   title     = {KOETC: Koopman Operator-Based  Event-Triggered Control from Data},
-  journal   = {Submitted toEuropean Journal of Control},
+  journal   = {Submitted to European Journal of Control},
   year      = {2024},
 }
 ```
